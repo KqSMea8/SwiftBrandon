@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'SwiftBrandon' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire', '~> 4.7.3'
+  pod 'SwiftyJSON', '~> 4.2.0'
+  
+  target 'SwiftBrandonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftBrandonUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
