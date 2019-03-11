@@ -28,12 +28,12 @@ class SBrTabBar: UITabBar,UITabBarDelegate {
         if let bgsize = centerButton.currentBackgroundImage?.size {
             centerButton.size = bgsize
         }
-        centerButton.addTarget(self, action: #selector(centerButtonAction), for: .touchUpInside)
+        centerButton.addTarget(self, action: #selector(SBrTabBar.centerButtonAction), for: .touchUpInside)
         self.addSubview(centerButton)
         self.centerButton = centerButton;
-        
-        self.centerButton?.layer.borderColor = UIColor.red.cgColor
-        self.centerButton?.layer.borderWidth = 3
+//        
+//        self.centerButton?.layer.borderColor = UIColor.red.cgColor
+//        self.centerButton?.layer.borderWidth = 3
     }
     
     required init?(coder aDecoder: NSCoder) {

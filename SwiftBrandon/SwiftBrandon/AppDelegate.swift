@@ -7,15 +7,28 @@
 //
 
 import UIKit
+import CocoaLumberjack
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
+    
+    
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        configCocoaLumberjack()
+        
+        
+        
+        
+        
         
         self.window = UIWindow.init(frame: kScreenBounds)
         self.window?.backgroundColor = UIColor.white
@@ -25,6 +38,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
+    
+    
+    func configCocoaLumberjack() {
+        DDLog.add(DDOSLogger.sharedInstance) // Uses os_log
+        
+        let fileLogger: DDFileLogger = DDFileLogger() // File Logger
+        fileLogger.rollingFrequency = 60 * 60 * 24 // 24 hours
+        fileLogger.logFileManager.maximumNumberOfLogFiles = 7
+        DDLog.add(fileLogger)
+        
+        DDLogVerbose("Verbose")
+        DDLogDebug("Debug")
+        DDLogInfo("Info")
+        DDLogWarn("Warn")
+        DDLogError("Error")
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		0903221AC33FE1F8BE6311F9 /* Pods_SwiftBrandonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4640E5E41CEBBE7D8A3F86 /* Pods_SwiftBrandonUITests.framework */; };
 		4A42B4964544CD562CE215AC /* Pods_SwiftBrandon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25D3453E55F69C9A66E104D /* Pods_SwiftBrandon.framework */; };
+		AF68F092223684D000F44B7B /* SBrBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F091223684D000F44B7B /* SBrBaseViewController.swift */; };
+		AF68F094223684E500F44B7B /* SBrBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F093223684E500F44B7B /* SBrBaseView.swift */; };
+		AF68F09A223685E000F44B7B /* SBrHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F099223685E000F44B7B /* SBrHomeViewController.swift */; };
+		AF68F09C223685ED00F44B7B /* SBrMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F09B223685ED00F44B7B /* SBrMessageViewController.swift */; };
+		AF68F09E223685F900F44B7B /* SBrDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F09D223685F900F44B7B /* SBrDiscoverViewController.swift */; };
+		AF68F0A02236860400F44B7B /* SBrMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F09F2236860400F44B7B /* SBrMineViewController.swift */; };
+		AF68F0A22236865D00F44B7B /* SBrSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68F0A12236865D00F44B7B /* SBrSetViewController.swift */; };
+		AF68F0A922369DD600F44B7B /* navigationBar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF68F0A822369DD600F44B7B /* navigationBar_back@2x.png */; };
 		AFE37B362226586A00738B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE37B352226586A00738B31 /* AppDelegate.swift */; };
 		AFE37B382226586A00738B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE37B372226586A00738B31 /* ViewController.swift */; };
 		AFE37B3B2226586A00738B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE37B392226586A00738B31 /* Main.storyboard */; };
@@ -60,6 +68,14 @@
 		86A202A931B40A8C2D0B1D77 /* Pods-SwiftBrandon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandon/Pods-SwiftBrandon.debug.xcconfig"; sourceTree = "<group>"; };
 		91DB197326C84DCE62BA207C /* Pods-SwiftBrandonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandonTests/Pods-SwiftBrandonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		95BA61F5BDDC1BFAB6AE6E5C /* Pods-SwiftBrandonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandonUITests/Pods-SwiftBrandonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF68F091223684D000F44B7B /* SBrBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrBaseViewController.swift; sourceTree = "<group>"; };
+		AF68F093223684E500F44B7B /* SBrBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrBaseView.swift; sourceTree = "<group>"; };
+		AF68F099223685E000F44B7B /* SBrHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrHomeViewController.swift; sourceTree = "<group>"; };
+		AF68F09B223685ED00F44B7B /* SBrMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrMessageViewController.swift; sourceTree = "<group>"; };
+		AF68F09D223685F900F44B7B /* SBrDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrDiscoverViewController.swift; sourceTree = "<group>"; };
+		AF68F09F2236860400F44B7B /* SBrMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrMineViewController.swift; sourceTree = "<group>"; };
+		AF68F0A12236865D00F44B7B /* SBrSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrSetViewController.swift; sourceTree = "<group>"; };
+		AF68F0A822369DD600F44B7B /* navigationBar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBar_back@2x.png"; sourceTree = "<group>"; };
 		AFE37B322226586A00738B31 /* SwiftBrandon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBrandon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE37B352226586A00738B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE37B372226586A00738B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 		AFE37B9422266B0000738B31 /* UIColor+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		AFE37B9622266CEE00738B31 /* SBrConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrConstants.swift; sourceTree = "<group>"; };
 		AFE37B98222673A600738B31 /* SBrNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBrNavigationController.swift; sourceTree = "<group>"; };
+		AFE37B9B2226CCE900738B31 /* SBrPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SBrPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D0CCB740D8B22D0AF65E1224 /* Pods-SwiftBrandonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandonTests/Pods-SwiftBrandonTests.release.xcconfig"; sourceTree = "<group>"; };
 		D46C182B3508FF72D1C1D578 /* Pods-SwiftBrandonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandonUITests/Pods-SwiftBrandonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D845638C5D4EB86247E8A4E0 /* Pods-SwiftBrandon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBrandon.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBrandon/Pods-SwiftBrandon.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +172,72 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF68F08E2236845F00F44B7B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F0902236847900F44B7B /* ViewController */,
+				AF68F08F2236847100F44B7B /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AF68F08F2236847100F44B7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F093223684E500F44B7B /* SBrBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF68F0902236847900F44B7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F091223684D000F44B7B /* SBrBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AF68F0952236852900F44B7B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F099223685E000F44B7B /* SBrHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF68F0962236853100F44B7B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F09B223685ED00F44B7B /* SBrMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AF68F0972236853B00F44B7B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F09D223685F900F44B7B /* SBrDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AF68F0982236854600F44B7B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F09F2236860400F44B7B /* SBrMineViewController.swift */,
+				AF68F0A12236865D00F44B7B /* SBrSetViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AF68F0A322369CEB00F44B7B /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				AF68F0A822369DD600F44B7B /* navigationBar_back@2x.png */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
 		AFE37B292226586A00738B31 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +295,8 @@
 		AFE37B6322265CCE00738B31 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF68F08E2236845F00F44B7B /* Base */,
+				AFE37B9A2226CCD400738B31 /* Playgrounds */,
 				AFE37B8922265E0B00738B31 /* SBrTabBarController */,
 				AFE37B6A22265D3F00738B31 /* DataSource */,
 				AFE37B6922265D3000738B31 /* Utilities */,
@@ -259,6 +344,10 @@
 		AFE37B6822265D2500738B31 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AF68F0982236854600F44B7B /* Mine */,
+				AF68F0972236853B00F44B7B /* Discover */,
+				AF68F0962236853100F44B7B /* Message */,
+				AF68F0952236852900F44B7B /* Home */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -283,6 +372,7 @@
 		AFE37B6B22265D4900738B31 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AF68F0A322369CEB00F44B7B /* Back */,
 				AFE37B6C22265DD800738B31 /* TabBar */,
 			);
 			path = Images;
@@ -317,6 +407,14 @@
 				AFE37B98222673A600738B31 /* SBrNavigationController.swift */,
 			);
 			path = SBrTabBarController;
+			sourceTree = "<group>";
+		};
+		AFE37B9A2226CCD400738B31 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFE37B9B2226CCE900738B31 /* SBrPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +540,7 @@
 				AFE37B3D2226586C00738B31 /* Assets.xcassets in Resources */,
 				AFE37B3B2226586A00738B31 /* Main.storyboard in Resources */,
 				AFE37B8622265DE200738B31 /* tabbar_discover@2x.png in Resources */,
+				AF68F0A922369DD600F44B7B /* navigationBar_back@2x.png in Resources */,
 				AFE37B7E22265DE200738B31 /* tabbar_compose_button@2x.png in Resources */,
 				AFE37B7C22265DE200738B31 /* tabbar_home@2x.png in Resources */,
 				AFE37B8522265DE200738B31 /* main_badge@2x.png in Resources */,
@@ -519,6 +618,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBrandon/Pods-SwiftBrandon-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -526,6 +626,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,14 +663,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF68F0A22236865D00F44B7B /* SBrSetViewController.swift in Sources */,
 				AFE37B922226657B00738B31 /* UIView+SBrCategory.m in Sources */,
+				AF68F09A223685E000F44B7B /* SBrHomeViewController.swift in Sources */,
 				AFE37B9522266B0000738B31 /* UIColor+Utils.m in Sources */,
+				AF68F0A02236860400F44B7B /* SBrMineViewController.swift in Sources */,
 				AFE37B382226586A00738B31 /* ViewController.swift in Sources */,
+				AF68F09C223685ED00F44B7B /* SBrMessageViewController.swift in Sources */,
+				AF68F09E223685F900F44B7B /* SBrDiscoverViewController.swift in Sources */,
 				AFE37B99222673A600738B31 /* SBrNavigationController.swift in Sources */,
 				AFE37B9722266CEE00738B31 /* SBrConstants.swift in Sources */,
 				AFE37B8B22265E6F00738B31 /* SBrTabBar.swift in Sources */,
 				AFE37B362226586A00738B31 /* AppDelegate.swift in Sources */,
 				AFE37B8D22265E8800738B31 /* SBrTabBarController.swift in Sources */,
+				AF68F092223684D000F44B7B /* SBrBaseViewController.swift in Sources */,
+				AF68F094223684E500F44B7B /* SBrBaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CocoaLumberjack
 
 class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
 
@@ -20,16 +21,16 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
     
     func setupViewControllers(){
         // 1.初始化子控制器
-        let home = ViewController();
+        let home = SBrHomeViewController();
         self.addChildVc(childVc: home, title: "首页", image: "tabbar_home", selectedImage: "tabbar_home_selected")
         
-        let messageCenter = ViewController();
+        let messageCenter = SBrMessageViewController();
         self.addChildVc(childVc: messageCenter, title: "消息", image: "tabbar_message_center", selectedImage: "tabbar_message_center_selected")
 
-        let discover = ViewController();
+        let discover = SBrDiscoverViewController();
         self.addChildVc(childVc: discover, title: "发现", image: "tabbar_discover", selectedImage: "tabbar_discover_selected")
 
-        let profile = ViewController();
+        let profile = SBrMineViewController();
         self.addChildVc(childVc: profile, title: "我", image: "tabbar_profile", selectedImage: "tabbar_profile_selected")
 
     }
@@ -42,7 +43,7 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
     ///
     /// - Parameter tabBar: <#tabBar description#>
     func tabBarDidClickAtCenterButton(tabBar: SBrTabBar) {
-        
+        DDLogDebug("点击了")
     }
     
     

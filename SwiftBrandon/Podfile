@@ -7,7 +7,9 @@ target 'SwiftBrandon' do
 
   pod 'Alamofire', '~> 4.7.3'
   pod 'SwiftyJSON', '~> 4.2.0'
-  
+  pod 'CocoaLumberjack/Swift', '~> 3.4.0'
+
+
   target 'SwiftBrandonTests' do
     inherit! :search_paths
     # Pods for testing
