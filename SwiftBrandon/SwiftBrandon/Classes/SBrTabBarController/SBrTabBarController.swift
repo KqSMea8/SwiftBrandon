@@ -21,16 +21,19 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
     
     func setupViewControllers(){
         // 1.初始化子控制器
-        let home = SBrHomeViewController();
+        let home = SBrHomeViewController()
         self.addChildVc(childVc: home, title: "首页", image: "tabbar_home", selectedImage: "tabbar_home_selected")
         
-        let messageCenter = SBrMessageViewController();
-        self.addChildVc(childVc: messageCenter, title: "消息", image: "tabbar_message_center", selectedImage: "tabbar_message_center_selected")
+        let video = SBrVideoViewController()
+        self.addChildVc(childVc: video, title: "视频", image: "tabbar_video", selectedImage: "tabbar_video_selected")
 
-        let discover = SBrDiscoverViewController();
+        let discover = SBrDiscoverViewController()
         self.addChildVc(childVc: discover, title: "发现", image: "tabbar_discover", selectedImage: "tabbar_discover_selected")
 
-        let profile = SBrMineViewController();
+        let messageCenter = SBrMessageViewController()
+        self.addChildVc(childVc: messageCenter, title: "消息", image: "tabbar_message_center", selectedImage: "tabbar_message_center_selected")
+
+        let profile = SBrMineViewController()
         self.addChildVc(childVc: profile, title: "我", image: "tabbar_profile", selectedImage: "tabbar_profile_selected")
 
     }
@@ -38,7 +41,27 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
         let tabBar = SBrTabBar()
         tabBar.sbrdelegate = self
         self.setValue(tabBar, forKey: "tabBar")
+        
+        configTabBar()
     }
+    
+    func configTabBar() {
+        //移除顶部线条
+        tabBar.shadowImage = UIImage()
+        //不设置背景图片
+        tabBar.backgroundImage = UIImage(named: "tabbar_background")?.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0),resizingMode: .stretch) //拉伸图片
+        
+        //添加阴影
+        tabBar.layer.shadowColor = UIColor.lightGray.cgColor
+        tabBar.layer.shadowOffset = CGSize(width: 0, height: -1)
+        tabBar.layer.shadowOpacity = 1
+        tabBar.layer.shadowRadius = 5
+    }
+    
+    
+    
+    
+    
     /// SBrTabBarDelegate
     ///
     /// - Parameter tabBar: <#tabBar description#>
@@ -58,7 +81,8 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
         textAttrs[NSAttributedString.Key.foregroundColor] = kRGBColor(R: 123, G: 123, B: 123)
         
         var selectTextAttrs:Dictionary<NSAttributedString.Key,Any> = Dictionary()
-        selectTextAttrs[NSAttributedString.Key.foregroundColor] = UIColor.orange;
+        selectTextAttrs[NSAttributedString.Key.foregroundColor] = kRGBColor(R: 51, G: 51, B: 51)
+        
         childVc.tabBarItem.setTitleTextAttributes(textAttrs, for: .normal)
         childVc.tabBarItem.setTitleTextAttributes(selectTextAttrs, for: .selected)
         

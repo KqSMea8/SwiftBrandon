@@ -12,7 +12,7 @@ class SBrHomeViewController: SBrBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.randomColor
         // Do any additional setup after loading the view.
     }
     

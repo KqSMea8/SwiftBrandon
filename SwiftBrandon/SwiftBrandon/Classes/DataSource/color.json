@@ -1,0 +1,240 @@
+{
+    "code": 100,
+    "msg": "数据获取成功",
+    "data": [
+             {
+                 "filterId": "37",
+                 "filterName": "玫红色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/meihong.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "29",
+                 "filterName": "宝石蓝",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/baoshilan.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "32",
+                 "filterName": "杏色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/xingse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "33",
+                 "filterName": "卡其色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/kaqi.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "34",
+                 "filterName": "军绿色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/junlv.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "35",
+                 "filterName": "墨绿色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/molv.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "36",
+                 "filterName": "深红色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/shenhong.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "27",
+                 "filterName": "金色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/jin.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "38",
+                 "filterName": "黄棕色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/huangzongse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "39",
+                 "filterName": "酒红色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/jiuhongse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "40",
+                 "filterName": "咖啡色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/kafeise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "41",
+                 "filterName": "玫粉色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/meifense.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "42",
+                 "filterName": "砂石灰",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/shashihui.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "43",
+                 "filterName": "胭脂色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/yanzhise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "44",
+                 "filterName": "银色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/yinse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "45",
+                 "filterName": "棕色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/zongse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "28",
+                 "filterName": "藏蓝色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/zanglan.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "46",
+                 "filterName": "玫瑰金",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/meiguijin.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "25",
+                 "filterName": "条纹",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/tiaowen.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "26",
+                 "filterName": "波点",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/bodiam.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "5",
+                 "filterName": "灰色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/huise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "6",
+                 "filterName": "米色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/mise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "8",
+                 "filterName": "红色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/hongse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "9",
+                 "filterName": "橙色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/chengse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "10",
+                 "filterName": "黄色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/huangse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "11",
+                 "filterName": "绿色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/lvse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "20",
+                 "filterName": "拼色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/pinse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "13",
+                 "filterName": "紫色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/zise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "16",
+                 "filterName": "驼色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/tuose.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "21",
+                 "filterName": "印花/刺绣",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/yinhua.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "17",
+                 "filterName": "褐色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/hese.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "19",
+                 "filterName": "牛仔色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/niuzaise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "12",
+                 "filterName": "蓝色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/lanse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "14",
+                 "filterName": "粉色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/fense.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "22",
+                 "filterName": "动物纹",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/dongwu.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "23",
+                 "filterName": "金属色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/jinshuse.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "24",
+                 "filterName": "格纹",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/gewen.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "7",
+                 "filterName": "白色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/baise.png",
+                 "searchName": "color_id"
+             },
+             {
+                 "filterId": "4",
+                 "filterName": "黑色",
+                 "pic": "http://yi23img.oss-cn-beijing.aliyuncs.com/color/heise.png",
+                 "searchName": "color_id"
+             }
+             ]
+}
