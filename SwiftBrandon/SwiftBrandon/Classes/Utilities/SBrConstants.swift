@@ -35,7 +35,8 @@ let kScreenSize = kScreenBounds.size//屏幕大小
 let kScreenWidth:CGFloat = kScreenSize.width//屏幕宽度
 let kScreenHeight:CGFloat = kScreenSize.height//屏幕高度
 let kStatusBarHeight:CGFloat = (iPhoneX() ? 44.0 : 20.0)//状态栏默认高度
-let kNavBarHeight:CGFloat = 44.0//导航栏默认高度
+let kNavBarContentHeight:CGFloat = 44.0//导航栏内容高度
+let kNavBarHeight:CGFloat = (kStatusBarHeight + kNavBarContentHeight)//导航栏默认高度
 let kTabBarHeight:CGFloat = (iPhoneX() ? 83.0 : 49.0)//Tabbar默认高度
 
 
@@ -108,7 +109,7 @@ func kRGBHexColor(hexStringRGB:String) ->UIColor {
 //主色调
 let kMainColor = kRGBColor(R: 142, G: 190, B: 84)
 //背景色
-let kBackgroundColor = kRGBColor(R: 246, G: 246, B: 246)
+let kBackgroundColor = kRGBColor(R: 243, G: 244, B: 246)
 //字体颜色
 let kTextColor = kRGBColor(R: 102, G: 102, B: 102)
 //灰色字体颜色

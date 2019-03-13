@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import CocoaLumberjack
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -47,12 +45,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         fileLogger.rollingFrequency = 60 * 60 * 24 // 24 hours
         fileLogger.logFileManager.maximumNumberOfLogFiles = 7
         DDLog.add(fileLogger)
-        
-        DDLogVerbose("Verbose")
-        DDLogDebug("Debug")
-        DDLogInfo("Info")
-        DDLogWarn("Warn")
-        DDLogError("Error")
+//        
+//        DDLogVerbose("Verbose")
+//        DDLogDebug("Debug")
+//        DDLogInfo("Info")
+//        DDLogWarn("Warn")
+//        DDLogError("Error")
     }
     
     

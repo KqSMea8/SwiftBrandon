@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CocoaLumberjack
 
 class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
 
@@ -66,7 +65,6 @@ class SBrTabBarController: UITabBarController ,SBrTabBarDelegate{
     ///
     /// - Parameter tabBar: <#tabBar description#>
     func tabBarDidClickAtCenterButton(tabBar: SBrTabBar) {
-        DDLogDebug("点击了")
     }
     
     

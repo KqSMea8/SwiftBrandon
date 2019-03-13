@@ -4,10 +4,30 @@
 target 'SwiftBrandon' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
-  pod 'Alamofire', '~> 4.7.3'
+  #布局，也是Masonry作者写的。
+  pod 'SnapKit', '~> 4.0.1'
+  
+  #作者是王巍，是一个SDWebImage的升级版。基本使用：https://www.jianshu.com/p/e025cec4197a。
+  pod 'Kingfisher', '~> 4.10.0'
+  #轮播图
+  pod 'FSPagerView', '~> 0.8.1'
+  #网络请求
+  pod 'Moya', '~> 11.0.2'
+  #转换JSON和Model
+  pod 'HandyJSON', '~> 4.2.0'
   pod 'SwiftyJSON', '~> 4.2.0'
-  pod 'CocoaLumberjack/Swift', '~> 3.4.0'
+  #分页
+#  pod 'JXCategoryView'
+  pod 'JXSegmentedView'
+  #刷新
+  pod 'MJRefresh', '~> 3.1.15.7'
+  #加载框
+  pod 'SVProgressHUD', '~> 2.2.5'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  #播放网络音频
+  pod 'StreamingKit', '~> 0.1.30'
+  #日志打印
+  pod 'CocoaLumberjack/Swift', '~> 3.4.2'
 
 
   target 'SwiftBrandonTests' do
